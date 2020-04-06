@@ -1,0 +1,42 @@
+.header{
+    background-color: rgba(202, 10, 228, 0.459);
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+
+
+    .title{
+        width: 100%;
+        height: 60%;
+        font-family: 'Indie Flower';
+        font-size: 40px;
+        margin:0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .todo{
+        position: relative;
+        top: 90px;
+        height: 250px;
+        margin-top:30px;
+        width: 33%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, rgb(0, 196, 245), rgb(6, 224, 240));
+        opacity: 0.97;
+    }
+
+    .searchandbutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+}
