@@ -4,7 +4,7 @@ import './lista.styles.scss';
 
 const Lista = ({ messages, deleteTodo, completedTodo, completed}) => (
     <div className="body">
-        <div className="todo">
+        <div className="todobody">
         {
             messages.map((list,index) =>(
                 <div key={index} className="lista">

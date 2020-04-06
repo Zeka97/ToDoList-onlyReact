@@ -1,11 +1,15 @@
-.header{
-    background-color: rgba(202, 10, 228, 0.459);
-    height: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:black;
+.todo{
+        top:10px;
+        left:33%;
+        position: absolute;
+        height: 20%;
+        width: 33%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, rgb(0, 196, 245), rgb(6, 224, 240));
+        opacity: 0.97;
+}
 
 
     .title{
@@ -19,18 +23,7 @@
 
     }
 
-    .todo{
-        position: relative;
-        top: 90px;
-        height: 250px;
-        margin-top:30px;
-        width: 33%;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        background-image: linear-gradient(to right, rgb(0, 196, 245), rgb(6, 224, 240));
-        opacity: 0.97;
-    }
+    
 
     .searchandbutton{
         display: flex;
@@ -39,4 +32,3 @@
         height: auto;
         width: auto;
     }
-}

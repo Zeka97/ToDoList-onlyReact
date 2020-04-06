@@ -5,7 +5,6 @@ import Search from '../search/search.component';
 import Button from '../button/button.component';
 
 const Header = ({handleChange, handleSubmit,  value}) => (
-    <div className="header">
         <div className="todo">
             <h2 className="title">New Todo:</h2>
                         <form className="searchandbutton" onSubmit={handleSubmit} >
@@ -14,7 +13,6 @@ const Header = ({handleChange, handleSubmit,  value}) => (
                         </form>
         </div>
 
-    </div>
 );
 
 export default Header;
