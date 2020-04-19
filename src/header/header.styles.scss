@@ -1,14 +1,51 @@
-.todo{
-        top:10px;
-        left:33%;
-        position: absolute;
-        height: 20%;
+@media only screen and (min-width: 830px)
+{
+    .todo{
+        height: auto;
         width: 33%;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         background-image: linear-gradient(to right, rgb(0, 196, 245), rgb(6, 224, 240));
         opacity: 0.97;
+        margin-top:20px;
+}
+
+
+    .title{
+        width: 100%;
+        height: auto;
+        font-family: 'Indie Flower';
+        font-size: 40px;
+        margin:0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    
+
+    .searchandbutton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 830px)
+{
+    .todo{
+        height: auto;
+        width: 50%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, rgb(0, 196, 245), rgb(6, 224, 240));
+        opacity: 0.97;
+        margin-top: 15px;
 }
 
 
@@ -16,7 +53,7 @@
         width: 100%;
         height: 60%;
         font-family: 'Indie Flower';
-        font-size: 40px;
+        font-size: 7vw;
         margin:0;
         padding: 0;
         text-align: center;
@@ -30,5 +67,7 @@
         justify-content: center;
         align-items: center;
         height: auto;
-        width: auto;
+        width: 100%;
+        padding-bottom: 15px;
     }
+}

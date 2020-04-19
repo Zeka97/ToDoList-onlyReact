@@ -1,3 +1,4 @@
+@media only screen and(min-width: 830px){
 .body{
     margin: 0;
     width: 100%;
@@ -5,9 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../setnja.JPG');
-    background-position: center;
-    background-size: cover;
 
     .todobody{
         background-color: lightblue;
@@ -15,7 +13,7 @@
         height: 50%;
         width: 50%;
         overflow: auto;
-        overflow-x: hidden;
+        overflow-x: auto;
     }
     .todobody::-webkit-scrollbar-track {
         border: 1px solid #000;
@@ -37,10 +35,10 @@
 
     .lista{
         margin: 10px 0;
-        height: 50px;
+        height: auto;
         width: 100%;
         font-family: 'Roboto', sans-serif;
-        font-size: 36px;
+        font-size: 35px;
         font-weight: bolder;
         opacity: 0.8;
         display: flex;
@@ -66,5 +64,80 @@
             cursor: pointer;
         }
         
+    }
+}
+}
+
+@media only screen and (max-width: 830px)
+{
+    .body{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../setnja.JPG');
+        background-position: center;
+        background-size: cover;
+    
+        .todobody{
+            background-color: lightblue;
+            opacity: 0.9;
+            height: 50%;
+            width: 70%;
+            overflow: auto;
+            overflow-x: hidden;
+        }
+        .todobody::-webkit-scrollbar-track {
+            border: 1px solid #000;
+            padding: 2px 0;
+            background-color: #404040;
+          }
+          
+          .todobody::-webkit-scrollbar {
+            width: 10px;
+          }
+          
+          .todobody::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #975d5d;
+            border: 1px solid #000;
+          }
+        
+    
+        .lista{
+            margin: 10px 0;
+            height: auto;
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 3vw;
+            font-weight: bolder;
+            opacity: 0.8;
+            display: flex;
+            justify-content: space-between;
+            color:black;
+            
+    
+            .recenica{
+                padding-left: 40px;
+            }
+            .textline{
+                padding-left: 40px;
+                text-decoration: line-through;
+            }
+    
+    
+            .remove{
+                cursor: pointer;
+                padding-left: 30px;
+            }
+    
+            .finished{
+                cursor: pointer;
+            }
+            
+        }
     }
 }

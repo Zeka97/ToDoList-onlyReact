@@ -12,6 +12,8 @@
         text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
         text-align:center;
         transition: all 0.2s;
+        height: auto;
+        font-size: auto;
 
         &:hover{
             border-color: rgba(255,255,255,1);
